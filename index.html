@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dossier Laia</title>
+    <style>
+        /* Styling for the website */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px; /* Add space between images if desired */
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="gallery">
+        <a href="images/1.jpeg" data-lightbox="gallery">
+            <img src="images/1.jpeg" alt="Image 1">
+        </a>
+        
+        <a href="images/2.jpeg" data-lightbox="gallery">
+            <img src="images/2.jpeg" alt="Image 2">
+        </a>
+        
+        <a href="images/3.jpg" data-lightbox="gallery">
+            <img src="images/3.jpg" alt="Image 3">
+        </a>
+
+        <a href="images/4.jpeg" data-lightbox="gallery">
+            <img src="images/4.jpeg" alt="Image 4">
+        </a>
+
+        <a href="images/5.jpeg" data-lightbox="gallery">
+            <img src="images/5.jpeg" alt="Image 5">
+        </a>
+
+        <a href="images/6.jpeg" data-lightbox="gallery">
+            <img src="images/6.jpeg" alt="Image 6">
+        </a>
+
+        <a href="images/7.jpeg" data-lightbox="gallery">
+            <img src="images/7.jpeg" alt="Image 7">
+        </a>
+
+        <a href="images/8.jpeg" data-lightbox="gallery">
+            <img src="images/8.jpeg" alt="Image 8">
+        </a>
+
+        <a href="images/9.jpg" data-lightbox="gallery">
+            <img src="images/9.jpg" alt="Image 9">
+        </a>
+        </a>
+    </div>
+
+    <!-- Optional: Include a JavaScript library to expand on hover functionality (like Lightbox) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
+</body>
+</html>
